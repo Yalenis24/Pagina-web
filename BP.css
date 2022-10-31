@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to bottom,#212121,#3d0235, #350216,#c70e80,#db399d,#f06292,#f48fb1)
+    
+   
+}
+div.a{
+    text-align: center;
+}
+h1{
+    font-size: 400%;
+    color: #ED17AE;
+    font-style: italic;
+}
+h2{
+    font-size: 400%;
+    color: #ca0c91;
+}
+div.li{
+    font-size: 175%;
+
+}
+div.nav{
+   font-size: 45px;
+   color: #f06292;
+   
+}
+div.b{
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+
+}
