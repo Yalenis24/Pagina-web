@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(to bottom,#d5398e,#ad2979,#7f034e,#370322,#010001)
+   
+
+}
+div.a{
+    text-align: center;
+}
+h1{
+    font-size: 400%;
+    color: #670a4b;
+    font-style: italic;
+}
+p{
+    image-orientation: left;
+    image-resolution: right;
+}
+
+div.li{
+    color: #ec3098;
+    font-size: 200%;
+    text-align: center;
+}
+h2{
+    font-size: 300%;
+    color: #ee2e98;
+    text-align: center;
+}
+div.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.imag1{
+    margin-right: 20px;
+    
+}
+h3{
+    font-size: 300%;
+    color: #ff5bb5;
+    text-align: center;
+}
+h4{
+    font-size: 300%;
+    color: #ff5bb5;
+    text-align: center;  
+}
+h5{
+    font-size: 300%;
+    color: #ff5bb5;
+    text-align: center;  
+}
+div.A{
+    color: #e61e8c;
+    font-size: 300%;
+    text-align: center;
+}
+.ov-btn-grow-ellipse {
+    width: 250px;
+    height: 40px;
+    background: rgb(230, 19, 160); /* color de fondo */
+    border: 2px solid #f11090; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 12px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .ov-btn-grow-ellipse:hover {
+    color: rgb(221, 25, 146);/* color de fuente hover */
+  }
+  .ov-btn-grow-ellipse::after {
+    content: "";
+    background: #160114; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 100%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+  }
+  .ov-btn-grow-ellipse:hover::after {
+    transition: all 1.6s ease-out;
+    transform: scale(1, 1);
+  }
+
+h6{
+    text-align: center;
+    color: #f11090;
+    font-size: 100px;
+}
